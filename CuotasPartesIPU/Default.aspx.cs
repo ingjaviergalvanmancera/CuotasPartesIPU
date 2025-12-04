@@ -14,15 +14,15 @@ namespace CuotasPartesIPU
             //ListarPrediosPorCedula();
         }
 
-       private void ListarPrediosPorCedula()
-        {
-            CuoparConDB cdb = new CuoparConDB();
-            cdb.ConsultarPrediosPorDocumento(txbDocumento.Text);
-        }
+       //private void ListarPrediosPorCedula()
+       // {
+       //     CuoparConDB cdb = new CuoparConDB();
+       //     cdb.ConsultarPrediosPorDocumento(txbDocumento.Text);
+       // }
 
-        protected void bTtnConsultar_Click(object sender, EventArgs e)
-        {
-            ListarPrediosPorCedula();
-        }
+        //protected void bTtnConsultar_Click(object sender, EventArgs e)
+        //{
+        //    ListarPrediosPorCedula();
+        //}
     }
 }
