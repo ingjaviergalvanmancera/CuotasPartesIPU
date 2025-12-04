@@ -69,15 +69,6 @@ namespace CuotasPartesIPU
         protected global::System.Web.UI.WebControls.Label lblAlerta;
 
         /// <summary>
-        /// Control ddlTipoDocumento.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlTipoDocumento;
-
-        /// <summary>
         /// Control txbDocumento.
         /// </summary>
         /// <remarks>

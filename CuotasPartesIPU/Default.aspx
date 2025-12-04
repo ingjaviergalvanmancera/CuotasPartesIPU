@@ -169,15 +169,15 @@
 
                                                                     <div class="entradas-de-texto-govco">
                                                                         <label for="ddlTipoDocumento" class="mb-2">Tipo de documento</label>
+                                                                        <asp:DropDownList ID="ddlTipoDocumento"  runat="server" CssClass="form-control govco-form-control>
+                                                                            <asp:ListItem Text="Cédula de ciudadanía" Value="CC"></asp:ListItem>
+                                                                            <asp:ListItem Text="Tarjeta de identidad" Value="TI"></asp:ListItem>
+                                                                            <asp:ListItem Text="NIT" Value="NIT"></asp:ListItem>
+                                                                            <asp:ListItem Text="Pasaporte" Value="PA"></asp:ListItem>
+                                                                            <asp:ListItem Text="Cédula de extranjería" Value="CE"></asp:ListItem>
+                                                                        </asp:DropDownList>
+                                                                        dd
 
-                                                                        <select id="ddlTipoDocumento" runat="server" class="form-control govco-form-control">
-                                                                            <option value="">Seleccione...</option>
-                                                                            <option value="CC">Cédula de ciudadanía</option>
-                                                                            <option value="TI">Tarjeta de identidad</option>
-                                                                            <option value="NIT">NIT</option>
-                                                                            <option value="PA">Pasaporte</option>
-                                                                            <option value="CE">Cédula de extranjería</option>
-                                                                        </select>
                                                                     </div>
                                                                     <div class="entradas-de-texto-govco">
                                                                         <label for="identifiacion">NIT/Cédula ciudadanía</label>
@@ -185,7 +185,7 @@
                                                                     </div>
                                                                     <div class="entradas-de-texto-govco">
                                                                         <label for="nombre">Nombre*</label>
-                                                                        <asp:TextBox ID="txbNombres" runat="server"  CssClass="form-control" autocomplete="off"></asp:TextBox>
+                                                                        <asp:TextBox ID="txbNombres" runat="server" CssClass="form-control" autocomplete="off"></asp:TextBox>
                                                                     </div>
                                                                     <div class="entradas-de-texto-govco">
                                                                         <label for="apellido">Apelldio*</label>
