@@ -166,15 +166,15 @@
                                                                     <h5>Datos de contacto</h5>
 
                                                                     <div class="entradas-de-texto-govco">
-                                                                        <label for="ddlTipoDocumento" class="mb-2">Tipo de documento</label>
-                                                                        <asp:DropDownList ID="ddlTipoDocumento"  runat="server" CssClass="form-control govco-form-control>
+                                                                        <label for="TipoDocumento" class="mb-2">Tipo de documento</label>
+                                                                        <asp:DropDownList ID="ddlTipoDocumento"  runat="server" CssClass="form-control">
                                                                             <asp:ListItem Text="Cédula de ciudadanía" Value="CC"></asp:ListItem>
                                                                             <asp:ListItem Text="Tarjeta de identidad" Value="TI"></asp:ListItem>
                                                                             <asp:ListItem Text="NIT" Value="NIT"></asp:ListItem>
                                                                             <asp:ListItem Text="Pasaporte" Value="PA"></asp:ListItem>
                                                                             <asp:ListItem Text="Cédula de extranjería" Value="CE"></asp:ListItem>
                                                                         </asp:DropDownList>
-                                                                        dd
+                                                                        
 
                                                                     </div>
                                                                     <div class="entradas-de-texto-govco">
